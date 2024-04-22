@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]  # Adjust Node.js version as needed
+        node-version: [20]  # Adjust Node.js version as needed
 
     steps:
     - name: Checkout Repository
